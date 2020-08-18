@@ -1,0 +1,38 @@
+ 
+ /*header{
+    background: blueviolet;
+    color: whitesmoke;
+ }
+
+ section{
+    background: green
+ }
+
+ #pri{
+    background: black;
+    color: red;
+ }
+
+ .grey{
+    background: grey
+ }
+
+ blockquote[cite]{
+    background:black;
+ }*/
+
+
+ h1{
+    font-size: 70px;
+    /*FUENTE*/font-family: Arial, Helvetica, sans-serif;
+    /*GROSOR*/font-weight: bold;
+ }
+
+ h2{
+    font: lighter 45px sans-serif;
+ }  
+
+ section,footer{
+
+    
+ }
