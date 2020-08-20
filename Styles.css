@@ -32,26 +32,36 @@ header,section,footer,aside,nav,article{
 }
  */
 
+ *{
+   margin: 0;
+   padding: 0;
+ }
 
  h1{
     font-size: 80px;
+    text-decoration:underline black;
     /*FUENTE*/font-family: Arial, Helvetica, sans-serif;
     /*GROSOR*/font-weight: bold;
     font-style: italic;
+    background: #16a085;
+    text-align: center;
+    padding: 20px;
  }
 
  h2{
-    font: bold 55px sans-serif;
+    font:  40px sans-serif;
+    background: rgb(175, 177, 177);
+    text-align: center;
  }  
 
  h3{
-   font-size: 37px;
+   font-size: 30px;
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-weight: lighter;
  }
 
 .contenido{
-   background:grey;
+   background:rgb(175, 177, 177);
  }
 
  img{
@@ -60,16 +70,22 @@ header,section,footer,aside,nav,article{
  }
 
  #footfinal{
-    background:green;
+    background:#16a085;
+    clear: both;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px ;
  }
 
- nav,section,footer{
-border: 2px solid black;
+ nav,footer,header{
+   border: 2px solid black;
  }
 
+ body{
+  background:  #2ecc71;
+ }
 
  div{
-    background:grey;
     width: 1300px;
     /*margin: 20px auto*/
     margin-top: 20px;
@@ -79,6 +95,41 @@ border: 2px solid black;
     padding: 10px;
  }
 
- .navegacion{
-      align-content: centerS;
+ .menu li{
+   list-style: none;
+   padding: 15px;
+   font-size: 20px ;
+   font-style: italic;
+   display: inline-block;
+   background:rgb(147, 236, 229);
+   padding: 10px 110px;
+ }
+
+ section{
+   margin: 25px;
+ }
+
+ article{
+   border: solid black 1px;
+   width: 900px;
+   float:left;
+   background: rgb(132, 200, 221);
+   margin-bottom: 20px;
+ }
+
+footer p{
+    text-align: right;
+ }
+
+ time{
+    color: grey;
+ }
+
+ aside{
+   width: 300px;
+   border: black 1px solid;
+   float: right;
+   margin-top: 100px;
+   text-align:center;
+   padding: 10px 5px;
  }
